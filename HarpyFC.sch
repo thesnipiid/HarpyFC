@@ -465,8 +465,17 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <pad name="P$1" x="0" y="0" drill="0.6" shape="long" stop="no"/>
 </package>
 <package name="POWER_PAD">
-<rectangle x1="-1.1" y1="-0.6" x2="1.1" y2="0.6" layer="17"/>
-<pad name="P$1" x="0" y="0" drill="0.6" shape="square" stop="no" first="yes"/>
+<pad name="P$1" x="0" y="0" drill="0.6" shape="square"/>
+<polygon width="0.127" layer="17">
+<vertex x="-1" y="0.5"/>
+<vertex x="1" y="0.5"/>
+<vertex x="1" y="-0.5"/>
+<vertex x="-1" y="-0.5"/>
+</polygon>
+<rectangle x1="-1.1" y1="-0.7" x2="1.1" y2="0.7" layer="29"/>
+<rectangle x1="-1.1" y1="-0.7" x2="1.1" y2="0.7" layer="30"/>
+<rectangle x1="-1" y1="-0.5" x2="1" y2="0.5" layer="31"/>
+<rectangle x1="-1" y1="-0.5" x2="1" y2="0.5" layer="32"/>
 </package>
 <package name="BATTERY_PAD">
 <pad name="P$1" x="0" y="0" drill="2" diameter="5" shape="square" first="yes"/>
@@ -4968,62 +4977,47 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <approved hash="104,2,104.14,157.48,IC2G$2,VSS,GND,,,"/>
 <approved hash="104,2,104.14,162.56,IC2G$2,VSS,GND,,,"/>
 <approved hash="104,1,35.56,63.5,U3,VSS,GND,,,"/>
-<approved hash="104,1,121.92,63.5,U4,VCC,VDD,,,"/>
+<approved hash="106,2,58.42,109.22,M5,,,,,"/>
+<approved hash="106,2,104.14,99.06,M6,,,,,"/>
+<approved hash="106,2,104.14,101.6,M7,,,,,"/>
+<approved hash="106,2,104.14,104.14,M8,,,,,"/>
 <approved hash="113,2,223.838,157.48,U$7,,,,,"/>
 <approved hash="113,2,223.838,152.4,U$8,,,,,"/>
-<approved hash="113,2,223.584,147.333,P$1,,,,,"/>
+<approved hash="113,2,223.584,124.473,P$1,,,,,"/>
 <approved hash="113,2,223.838,134.62,U$9,,,,,"/>
 <approved hash="113,2,223.838,129.54,U$10,,,,,"/>
-<approved hash="113,2,223.584,124.473,P$2,,,,,"/>
+<approved hash="113,2,223.584,147.333,P$2,,,,,"/>
 <approved hash="113,2,188.278,157.48,U$11,,,,,"/>
-<approved hash="113,2,188.278,152.4,U$12,,,,,"/>
 <approved hash="113,2,188.024,147.333,P$3,,,,,"/>
 <approved hash="113,2,188.024,121.933,P$4,,,,,"/>
 <approved hash="113,2,188.024,116.853,P$5,,,,,"/>
 <approved hash="113,2,188.024,111.773,P$6,,,,,"/>
 <approved hash="113,2,188.024,106.693,P$7,,,,,"/>
-<approved hash="113,2,188.024,101.613,P$8,,,,,"/>
-<approved hash="113,2,188.024,96.5327,P$9,,,,,"/>
-<approved hash="113,2,188.024,91.4527,P$10,,,,,"/>
-<approved hash="113,2,188.024,86.3727,P$11,,,,,"/>
-<approved hash="113,2,223.584,111.773,P$12,,,,,"/>
-<approved hash="113,2,223.584,106.693,P$13,,,,,"/>
-<approved hash="113,2,223.584,101.613,P$14,,,,,"/>
-<approved hash="113,2,223.584,96.5327,P$15,,,,,"/>
-<approved hash="113,2,223.584,91.4527,P$16,,,,,"/>
-<approved hash="113,2,223.584,86.3727,P$17,,,,,"/>
-<approved hash="113,2,223.584,81.2927,P$18,,,,,"/>
-<approved hash="113,2,223.584,76.2127,P$19,,,,,"/>
-<approved hash="113,2,223.584,71.1327,P$20,,,,,"/>
-<approved hash="113,2,223.584,66.0527,P$21,,,,,"/>
+<approved hash="113,2,223.584,91.4527,P$12,,,,,"/>
+<approved hash="113,2,223.584,86.3727,P$13,,,,,"/>
+<approved hash="113,2,223.584,81.2927,P$14,,,,,"/>
+<approved hash="113,2,223.584,76.2127,P$15,,,,,"/>
+<approved hash="113,2,223.584,71.1327,P$16,,,,,"/>
+<approved hash="113,2,223.584,66.0527,P$17,,,,,"/>
+<approved hash="113,2,223.584,60.9727,P$18,,,,,"/>
+<approved hash="113,2,223.584,55.8927,P$19,,,,,"/>
+<approved hash="113,2,223.584,50.8127,P$20,,,,,"/>
+<approved hash="113,2,223.584,45.7327,P$21,,,,,"/>
 <approved hash="113,2,188.024,142.253,P$22,,,,,"/>
 <approved hash="113,2,188.024,137.173,P$23,,,,,"/>
-<approved hash="113,2,147.638,129.54,U$13,,,,,"/>
-<approved hash="113,2,147.638,124.46,U$14,,,,,"/>
-<approved hash="113,2,147.638,119.38,U$15,,,,,"/>
-<approved hash="113,2,147.638,114.3,U$16,,,,,"/>
 <approved hash="113,2,159.703,129.54,U$17,,,,,"/>
-<approved hash="113,2,159.703,124.46,U$18,,,,,"/>
-<approved hash="113,2,159.703,119.38,U$19,,,,,"/>
-<approved hash="113,2,159.703,114.3,U$20,,,,,"/>
-<approved hash="113,2,147.638,88.9,U$21,,,,,"/>
-<approved hash="113,2,147.638,83.82,U$22,,,,,"/>
-<approved hash="113,2,147.638,78.74,U$23,,,,,"/>
-<approved hash="113,2,147.638,73.66,U$24,,,,,"/>
-<approved hash="113,2,159.703,88.9,U$25,,,,,"/>
-<approved hash="113,2,159.703,83.82,U$26,,,,,"/>
-<approved hash="113,2,159.703,78.74,U$27,,,,,"/>
-<approved hash="113,2,159.703,73.66,U$28,,,,,"/>
-<approved hash="113,2,147.638,99.06,U$29,,,,,"/>
-<approved hash="113,2,147.638,93.98,U$30,,,,,"/>
-<approved hash="113,2,159.703,99.06,U$31,,,,,"/>
-<approved hash="113,2,159.703,93.98,U$32,,,,,"/>
-<approved hash="113,2,147.638,104.14,U$33,,,,,"/>
-<approved hash="113,2,147.638,58.42,U$34,,,,,"/>
-<approved hash="113,2,147.638,53.34,U$35,,,,,"/>
-<approved hash="113,2,159.703,58.42,U$36,,,,,"/>
-<approved hash="113,2,159.703,53.34,U$37,,,,,"/>
-<approved hash="113,2,147.638,63.5,U$38,,,,,"/>
+<approved hash="113,2,188.278,152.4,U$21,,,,,"/>
+<approved hash="113,2,159.703,106.68,U$32,,,,,"/>
+<approved hash="113,2,147.638,106.68,U$33,,,,,"/>
+<approved hash="113,2,159.703,88.9,U$36,,,,,"/>
+<approved hash="113,2,159.703,83.82,U$37,,,,,"/>
+<approved hash="113,2,147.638,88.9,U$38,,,,,"/>
+<approved hash="113,2,223.838,119.38,U$39,,,,,"/>
+<approved hash="113,2,223.584,114.313,P$24,,,,,"/>
+<approved hash="113,2,188.024,73.6727,P$25,,,,,"/>
+<approved hash="113,2,188.024,68.5927,P$26,,,,,"/>
+<approved hash="113,2,188.278,63.5,U$40,,,,,"/>
+<approved hash="113,2,200.897,43.4061,CN1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
