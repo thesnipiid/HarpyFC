@@ -2955,12 +2955,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VCC6" library="alienflight" deviceset="VCC" device=""/>
 <part name="VCC7" library="alienflight" deviceset="VCC" device=""/>
-<part name="C28" library="HarpyFC_Library" deviceset="CAP" device="-0603" value="10uF"/>
-<part name="R10" library="HarpyFC_Library" deviceset="RESISTOR" device="" value="100"/>
-<part name="C29" library="HarpyFC_Library" deviceset="CAP" device="-0603" value="10uF"/>
-<part name="C30" library="HarpyFC_Library" deviceset="CAP" device="-0603" value="22uF"/>
-<part name="R11" library="HarpyFC_Library" deviceset="RESISTOR" device="" value="100k"/>
-<part name="R17" library="HarpyFC_Library" deviceset="RESISTOR" device="" value="680k"/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -3278,22 +3272,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <instance part="VCC7" gate="1" x="142.24" y="127" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="148.336" y="128.016" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C28" gate="G$1" x="231.14" y="114.3" smashed="yes">
-<attribute name="NAME" x="232.664" y="117.221" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="232.664" y="112.141" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="R10" gate="G$1" x="185.42" y="132.08" smashed="yes">
-<attribute name="NAME" x="185.42" y="128.524" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="185.42" y="128.016" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="C29" gate="G$1" x="165.1" y="50.8" smashed="yes">
-<attribute name="NAME" x="160.528" y="53.467" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="160.274" y="48.895" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C30" gate="G$1" x="241.3" y="43.18" smashed="yes">
-<attribute name="NAME" x="244.348" y="43.688" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="244.348" y="41.148" size="1.778" layer="96" font="vector"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -3360,7 +3338,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="170.18" y1="48.26" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="48.26" x2="165.1" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="45.72" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
 <junction x="170.18" y="45.72"/>
@@ -3389,7 +3366,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="35.56" x2="236.22" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C30" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="38.1" x2="236.22" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="40.64" x2="241.3" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="38.1" x2="236.22" y2="38.1" width="0.1524" layer="91"/>
@@ -3414,7 +3390,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <pinref part="C19" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="223.52" y1="111.76" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="111.76" x2="231.14" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="109.22" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
 <junction x="223.52" y="109.22"/>
@@ -3514,7 +3489,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <junction x="220.98" y="134.62"/>
 <wire x1="223.52" y1="134.62" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="VDD" pin="VDD"/>
-<pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="119.38" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="134.62" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
 </segment>
@@ -3549,17 +3523,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="EN"/>
 <wire x1="228.6" y1="55.88" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VIN" class="0">
-<segment>
-<pinref part="C23" gate="G$1" pin="1"/>
-<label x="156.718" y="119.126" size="1.778" layer="95" rot="R180"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="119.38" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="116.84" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
-<junction x="149.86" y="116.84"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -3658,7 +3621,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <wire x1="236.22" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="48.26" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
 <junction x="236.22" y="50.8"/>
-<pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="48.26" x2="241.3" y2="50.8" width="0.1524" layer="91"/>
 <junction x="241.3" y="50.8"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
@@ -3712,7 +3674,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <wire x1="177.8" y1="134.62" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
 <junction x="177.8" y="134.62"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="132.08" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
 <junction x="177.8" y="132.08"/>
@@ -3888,24 +3849,16 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <net name="VBAT_OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="162.56" y1="55.88" x2="165.1" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <junction x="170.18" y="55.88"/>
-<wire x1="165.1" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
 <label x="162.56" y="55.88" size="1.778" layer="95" rot="R90"/>
-<pinref part="C29" gate="G$1" pin="1"/>
-<junction x="165.1" y="55.88"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="68.58" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
 <label x="228.6" y="68.58" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<junction x="149.86" y="116.84"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -3918,7 +3871,14 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <junction x="193.04" y="129.54"/>
 <pinref part="U2" gate="G$1" pin="PS/SYNC"/>
 <wire x1="193.04" y1="127" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="119.38" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
+<label x="149.86" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -4162,14 +4122,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 </instance>
 <instance part="GND44" gate="1" x="175.26" y="33.02" smashed="yes" rot="R270">
 <attribute name="VALUE" x="168.91" y="32.512" size="1.778" layer="96"/>
-</instance>
-<instance part="R11" gate="G$1" x="157.48" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="152.146" y="63.246" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="152.908" y="58.42" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
-</instance>
-<instance part="R17" gate="G$1" x="157.48" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="152.908" y="48.006" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="153.67" y="43.434" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="GND45" gate="1" x="157.48" y="35.56" smashed="yes">
 <attribute name="VALUE" x="154.94" y="33.02" size="1.778" layer="96"/>
@@ -4431,7 +4383,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 </segment>
 <segment>
 <pinref part="GND45" gate="1" pin="GND"/>
-<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="38.1" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4530,7 +4481,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <label x="43.18" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="66.04" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
 <label x="157.48" y="68.58" size="1.778" layer="95"/>
 </segment>
@@ -5015,8 +4965,6 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <label x="43.18" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
-<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="50.8" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="53.34" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="53.34" x2="160.02" y2="53.34" width="0.1524" layer="91"/>
@@ -5037,47 +4985,9 @@ License: &lt;a href="creativecommons.org/licenses/by-sa/4.0/" &gt;CC BY SA&lt;/a
 <approved hash="104,2,104.14,157.48,IC2G$2,VSS,GND,,,"/>
 <approved hash="104,2,104.14,162.56,IC2G$2,VSS,GND,,,"/>
 <approved hash="104,1,35.56,63.5,U3,VSS,GND,,,"/>
-<approved hash="106,2,58.42,109.22,M5,,,,,"/>
 <approved hash="106,2,104.14,99.06,M6,,,,,"/>
 <approved hash="106,2,104.14,101.6,M7,,,,,"/>
 <approved hash="106,2,104.14,104.14,M8,,,,,"/>
-<approved hash="113,2,223.838,157.48,U$7,,,,,"/>
-<approved hash="113,2,223.838,152.4,U$8,,,,,"/>
-<approved hash="113,2,223.584,124.473,P$1,,,,,"/>
-<approved hash="113,2,223.838,134.62,U$9,,,,,"/>
-<approved hash="113,2,223.838,129.54,U$10,,,,,"/>
-<approved hash="113,2,223.584,147.333,P$2,,,,,"/>
-<approved hash="113,2,188.278,157.48,U$11,,,,,"/>
-<approved hash="113,2,188.024,147.333,P$3,,,,,"/>
-<approved hash="113,2,188.024,121.933,P$4,,,,,"/>
-<approved hash="113,2,188.024,116.853,P$5,,,,,"/>
-<approved hash="113,2,188.024,111.773,P$6,,,,,"/>
-<approved hash="113,2,188.024,106.693,P$7,,,,,"/>
-<approved hash="113,2,223.584,91.4527,P$12,,,,,"/>
-<approved hash="113,2,223.584,86.3727,P$13,,,,,"/>
-<approved hash="113,2,223.584,81.2927,P$14,,,,,"/>
-<approved hash="113,2,223.584,76.2127,P$15,,,,,"/>
-<approved hash="113,2,223.584,71.1327,P$16,,,,,"/>
-<approved hash="113,2,223.584,66.0527,P$17,,,,,"/>
-<approved hash="113,2,223.584,60.9727,P$18,,,,,"/>
-<approved hash="113,2,223.584,55.8927,P$19,,,,,"/>
-<approved hash="113,2,223.584,50.8127,P$20,,,,,"/>
-<approved hash="113,2,223.584,45.7327,P$21,,,,,"/>
-<approved hash="113,2,188.024,142.253,P$22,,,,,"/>
-<approved hash="113,2,188.024,137.173,P$23,,,,,"/>
-<approved hash="113,2,159.703,129.54,U$17,,,,,"/>
-<approved hash="113,2,188.278,152.4,U$21,,,,,"/>
-<approved hash="113,2,159.703,106.68,U$32,,,,,"/>
-<approved hash="113,2,147.638,106.68,U$33,,,,,"/>
-<approved hash="113,2,159.703,88.9,U$36,,,,,"/>
-<approved hash="113,2,159.703,83.82,U$37,,,,,"/>
-<approved hash="113,2,147.638,88.9,U$38,,,,,"/>
-<approved hash="113,2,223.838,119.38,U$39,,,,,"/>
-<approved hash="113,2,223.584,114.313,P$24,,,,,"/>
-<approved hash="113,2,188.024,73.6727,P$25,,,,,"/>
-<approved hash="113,2,188.024,68.5927,P$26,,,,,"/>
-<approved hash="113,2,188.278,63.5,U$40,,,,,"/>
-<approved hash="113,2,200.897,43.4061,CN1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
